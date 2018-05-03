@@ -29,3 +29,11 @@
     opacity: .6;
 }
 
+img {
+    margin-left:80px;
+    width: 40%;
+}
+
+#login {
+    display: flex ;
+}
