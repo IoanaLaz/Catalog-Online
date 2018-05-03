@@ -4,22 +4,22 @@
     width: 70%;   
 } 
 
-.table-active{  background-color: rgb(8, 193, 255);
-    color: #fff;
+.table-active{  background-color:rgb(102, 0, 51);
+    color:rgb(255, 204, 204);
     padding: 4px 10px;
     border-radius: 2px;
     &.active {
-        color: white;
-        background: gray; 
+        color:rgb(255, 204, 204);
+        background:rgb(255, 204, 204); 
 }  }
 
-.table-active-content{  background-color: rgb(255,255,255);
+.table-active-content{  background-color:rgb(255, 204, 204);
     color: black;
     padding: 4px 10px;
     border-radius: 2px;
     &.active {
-        color: white;
-        background: gray; 
+        color:rgb(255, 204, 204);
+        background:rgb(255, 204, 204); 
 }  }
 
 
@@ -30,13 +30,13 @@
    left: 55%;
    top: 10%;
   
-   background-color: rgb(8, 193, 255);
-        color: #fff;
+   background-color: rgb(102, 0, 51);
+        color:rgb(255, 204, 204);
         padding: 4px 10px;
         border-radius: 2px;
         &.active {
-            color: white;
-            background: gray; 
+            color:rgb(255, 204, 204);
+            background:rgb(255, 204, 204); 
 }  
    
 }
@@ -44,7 +44,7 @@
 legend
 {
    // color:rgb(8, 193, 255);
-    color:white;
+    color: rgb(255, 204, 204);
         
         padding: 14px 20px;
         margin: 8px 0;
@@ -54,7 +54,7 @@ legend
     
 }
 
-.button{ background-color:white;
+.button{ background-color:rgb(255, 204, 204);
     color: black;
     padding: 14px 20px;
     margin: 8px 0;
