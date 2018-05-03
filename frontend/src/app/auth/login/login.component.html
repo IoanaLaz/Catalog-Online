@@ -11,20 +11,27 @@
       }
       </style>
     <div class=welcome>
-      <img src="../../../assets/welcome.jpg">
     </div>
     <form id="login" align="left">
       <div class=login>
   
         <h2 style="color:black">Login</h2>
   
-        <div class="form-group">
-          <input type="text" class="form-control" id="idUsername" name="username" [(ngModel)]="username" placeholder="Nume utilizator">
-        </div>
+        <form>
+                <p>
+                  <font size="3" color="black">
+              Username:<input type="text" name="username">
+                  </font>
+              </p>
+            </form>
   
-        <div class="form-group">
-          <input type="password" class="form-control" id="idPassword" name="password" [(ngModel)]="password" placeholder="Parola">
-        </div>
+            <form>
+                <p>
+                  <font size="3" color="black">
+              Password:<input type="text" name="password">
+              </font>
+          </p>
+            </form>
   
         <p class="text-danger">{{status}}</p>
   
@@ -36,16 +43,48 @@
       <div class=register>
         <fieldset>
           <h2 style="color:black">Sign in</h2>
+
+          <form>
+              <p>
+                <font size="3" color="black">
+            Name:<input type="text" name="name">
+                </font>
+            </p>
+          </form>
+
+          <form>
+              <p>
+                <font size="3" color="black">
+            E-mail:<input type="text" name="email">
+                </font>
+            </p>
+          </form>
+
+          <form>
+              <p>
+                <font size="3" color="black">
+            Username:<input type="text" name="username">
+                </font>
+            </p>
+          </form>
+
+          <form>
+              <p>
+                <font size="3" color="black">
+            Password:<input type="text" name="password">
+            </font>
+        </p>
+          </form>
+
+          <form>
+              <p>
+                <font size="3" color="black">
+            Repeat password:<input type="text" name="repeat password">
+                </font>
+              </p>
+          </form>
   
-          <input type="text" class="form-control" id="idLastName" name="lastname" [(ngModel)]="name" placeholder="Nume si prenume">
          
-          <input type="text" class="form-control" id="idEmail" name="email" [(ngModel)]="email" placeholder="E-mail">
-        
-          <input type="text" class="form-control" id="idUsername" name="username" [(ngModel)]="username2" placeholder="Username">
-          
-          <input type="password" class="form-control" id="idPassword" name="password" [(ngModel)]="password2" placeholder="Parola">
-     
-          <input type="password" class="form-control" id="idPassword2" name="password2" [(ngModel)]="password3" placeholder="Repeta parola">
   
           <p class="text-danger">{{status2}}</p>
   

@@ -1,21 +1,21 @@
 .login
 {   color:black;
     top:28%;
-    position: absolute;
-    right: 800px;
+    position: top;
+    right: 1100px;
     width: 300px;
     padding: 10px;    
 }  
 .register
 {   color:black;
-    top:28%;
+    top:0%;
     position: absolute;
-    right: 400px;
+    right: 100px;
     width: 300px;
-    padding: 10px;    
+    padding: 0px;    
 }  
 
-.button{ background-color:rgb(8, 193, 255);
+.button{ background-color:rgb(102, 0, 51);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -28,3 +28,4 @@
     padding: -100px 0px;
     opacity: .6;
 }
+
