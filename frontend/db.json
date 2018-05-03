@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Carmen Obancia",
+      "email": "obancia.carmen@yahoo.com",
+      "username": "carmen.obancia",
+      "password": "carmen123",
+      "isTeacher": false
+    },
+    {
+      "id": 2,
+      "name": "Emilia Oprea",
+      "email": "oprea.emilia@yahoo.com",
+      "username": "emiop",
+      "password": "emilia123",
+      "isTeacher": false
+    },
+    {
+      "id": 3,
+      "name": "Ioana Lazaroae",
+      "email": "lazaroae.ioana@yahoo.com",
+      "username": "ioana.lazaroae",
+      "password": "ioana123",
+      "isTeacher": false
+    },
+    {
+      "id": 4,
+      "name": "Raul Ion",
+      "email": "ion.raul@yahoo.com",
+      "username": "raul.ion",
+      "password": "raulion",
+      "isTeacher": false
+    },
+    {
+      "id": 5,
+      "name": "Andreea Oprita",
+      "email": "andreea.oprita@gmail.com",
+      "username": "andreeaop",
+      "password": "andreeaopr",
+      "isTeacher": false
+    },
+    {
+      "id": 6,
+      "name": "Sorin Stuparu",
+      "email": "stuparu.sorin@gmail.com",
+      "username": "sorinel",
+      "password": "sorinel123",
+      "isTeacher": false
+    },
+    
+    {
+      "id": 7,
+      "name": "Bogdan Lupu",
+      "email": "bogdan.lupu@yahoo.com",
+      "username": "bogdan.lupu",
+      "password": "bogdan1234",
+      "isTeacher": true
+    },
+    {
+      "id": 8,
+      "name": "Costel Aldea",
+      "email": "costel.aldea@yahoo.com",
+      "username": "costel.aldea",
+      "password": "678yui",
+      "isTeacher": true
+    },
+
+     {
+      "id": 9,
+      "name": "Claudia Pop",
+      "email": "claudia.pop@yahoo.com",
+      "username": "claudia.pop",
+      "password": "zaq12wsx",
+      "isTeacher": true
+    },
+
+   {
+      "id": 10,
+      "name": "Marin Marin",
+      "email": "marin.marin@yahoo.com",
+      "username": "marin.marin",
+      "password": "marin987",
+      "isTeacher": true
+    },
+
+    {
+      "id": 11,
+      "name": "Vlad Monescu",
+      "email": "vlad.monescu@yahoo.com",
+      "username": "vlad.monescu",
+      "password": "password",
+      "isTeacher": true
+    },
+
+    {
+      "id": 12,
+      "name": "Monica Vasile",
+      "email": "monica.vasile@yahoo.com",
+      "username": "monica.vasile",
+      "password": "3edcvfr4",
+      "isTeacher": true
+    }],
+
+    "entries": [
+    {
+      "id": 1,
+      "id_course": 2,
+      "id_student": 1,
+      "grade": 0
+    },
+    {
+      "id": 2,
+      "id_course": 4,
+      "id_student": 2,
+      "grade": 0
+    },
+    {
+      "id": 3,
+      "id_course": 6,
+      "id_student": 2,
+      "grade": 0
+    },
+    {
+      "id": 4,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 5,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 6,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+}],
+"courses": [
+    {
+      "id": 1,
+      "id_teacher": 11,
+      "name": "Web"
+    },
+    {
+      "id": 2,
+      "id_teacher": 12,
+      "name": "Programare Distribuita"
+    },
+    {
+      "id": 3,
+      "id_teacher": 9,
+      "name": "Inginerie software"
+    },
+    {
+      "id": 4,
+      "id_teacher": 7,
+      "name": "Knowledge Management"
+    },
+    {
+      "id": 5,
+      "id_teacher": 8,
+      "name": "Marketing"
+    },
+    {
+      "id": 6,
+      "id_teacher": 10,
+      "name": "Jocuri 3D"
+    }
+  ]
+}
